@@ -58,6 +58,11 @@ int main() {
 
   //create a new instance with parameters
   Student student3("Donald","Duck",2011,2022);
+
+  //call the parent accessor
+  cout << student3.getName() << endl;
+
+  //call the child accessor
   student3.displayProfile();
   return 0;
 
